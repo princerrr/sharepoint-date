@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Today's Date</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="date"></div>
+  <script>
+    const today = new Date();
+    document.getElementById("date").innerText = "Today's Date: " + today.toDateString();
+  </script>
+</body>
+</html>
